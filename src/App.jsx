@@ -57,7 +57,7 @@ function App() {
   return (
     <main className="board">
       <h1>Equis Cero</h1>
-      <button onClick={resetGame}>Jugar de Nuevo</button>
+      <button onClick={resetGame}>Juego Nuevo</button>
       <Game board={board} updateBoard={updateBoard}></Game>
       <Turn turn={turn}></Turn>
       <WinnerModal resetGame={resetGame} winner={winner}></WinnerModal>

@@ -13,7 +13,7 @@ export function WinnerModal({ winner, resetGame }) {
         <header className="win">{winner && <Square>{winner}</Square>}</header>
 
         <footer>
-          <button onClick={resetGame}>Jugar de Nuevo</button>
+          <button onClick={resetGame}>Juego Nuevo</button>
         </footer>
       </div>
     </section>
