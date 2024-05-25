@@ -129,3 +129,7 @@ body {
   cursor: pointer;
   font-size: 35px;
 }
+
+link {
+  color: #fff;
+}
